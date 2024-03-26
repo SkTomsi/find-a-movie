@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors";
 
 const config: Config = {
   content: [
@@ -7,6 +8,18 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      "bright-purple": "#3E00ED",
+      purple: "#6341C4",
+      transparent: "transparent",
+      current: "currentColor",
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      emerald: colors.emerald,
+      indigo: colors.indigo,
+      yellow: colors.yellow,
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
