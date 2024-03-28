@@ -3,7 +3,7 @@ import MovieOverlay from "./movie-overlay";
 
 export default function HeroSection() {
   return (
-    <section className="relative">
+    <section className="relative bg-dark">
       <div className="absolute top-8 left-[340px] z-[1] ">
         <MovieOverlay />
       </div>
