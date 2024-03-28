@@ -4,7 +4,7 @@ import MovieOverlay from "./movie-overlay";
 export default function HeroSection() {
   return (
     <section className="relative bg-dark">
-      <div className="absolute top-8 left-[340px] z-[1] ">
+      <div className="absolute md:top-8 -top-8 -left-[70px] md:left-[340px] z-[1] ">
         <MovieOverlay />
       </div>
       <div className="bg-gradient-to-b from-bright-purple to-purple flex justify-center overflow-hidden">

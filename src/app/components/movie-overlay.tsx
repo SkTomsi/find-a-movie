@@ -5,7 +5,7 @@ export default function MovieOverlay() {
   return (
     <div className="relative">
       {/* SVG */}
-      <div className="absolute scale-[85%] opacity-40">
+      <div className="absolute md:scale-[85%] scale-[50%] opacity-40">
         <svg
           width="360"
           height="245"
@@ -15,7 +15,7 @@ export default function MovieOverlay() {
           <path d="M360 211L0 245V7.5L360 0.5V211Z" fill="#000" />
         </svg>
       </div>
-      <div className="scale-[78%]">
+      <div className="md:scale-[78%] scale-[45%]">
         <svg
           width="360"
           height="245"
