@@ -34,7 +34,7 @@ export default function MovieOverlay() {
         {/* Clipped Image */}
         <div className="absolute top-0 left-0 h-full object-contain">
           <img
-            src="/godha.jpg" // Replace with your image URL
+            src="/movie-covers/4.jpg" // Replace with your image URL
             alt="Clipped Image"
             className="h-full object-cover"
             style={{ clipPath: "url(#clipPath)" }}
